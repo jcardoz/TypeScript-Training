@@ -14,7 +14,7 @@ Simple repository for training on TypeScript
 ### Installation
 - through NPM: 
 ```
-	npm install -g typescript
+npm install -g typescript
 ```
 	
 ### Compiling	
