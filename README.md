@@ -6,10 +6,13 @@ Simple repository for training on TypeScript
 - Some Caveats of Typescript
 	- Its a superset of JavaScript, with the introduction of types
 	- it compiles back into JavaScript which your browser can understand
-	- given that it compiles back into JavaScript, you need a compiler which you can install using
+	- given that it compiles back into JavaScript, you need a compiler
 
 ### Installation
-- through NPM: npm install -g typescript
+- through NPM: 
+```
+	npm install -g typescript
+```
 	
 ### Compiling	
 - How can you compile typescript? There are multiple ways:
@@ -22,6 +25,6 @@ Simple repository for training on TypeScript
 ###	Setting up your IDE for typescript use
 - VS Code has in-built support for building and intellisense for TS
 - Sublime Text: Install the TypeScript Package from Package Control [Sublime Text TypeScript Package](https://github.com/Microsoft/TypeScript-Sublime-Plugin)
-- Atom: Install the package for Atom from apm: [Atom package for TypeScript](https://atom.io/packages/atom-typescript)
+- Atom: Install the TypeScript package for Atom from apm: [Atom package for TypeScript](https://atom.io/packages/atom-typescript)
  
 
