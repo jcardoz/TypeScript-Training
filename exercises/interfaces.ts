@@ -57,4 +57,24 @@ function createSquare(config: SquareConfig): {color: string; area: number} {
     return newSquare;
 }
 
-let mySquare = createSquare({color: "black"});
+let obj3 = {color: "black", widthe: 10};
+let mySquare1 = createSquare(obj3);
+
+// Readonly properties
+// Some properties should only be modifiable when an object is first created. 
+// You can specify this by putting readonly before the name of the property
+
+interface Point {
+    readonly x: number;
+    readonly y: number;
+}
+
+let p1: Point = { x: 10, y: 20 };
+// p1.x = 5;
+
+// Excess Property Checks
+// Object literals get special treatment and undergo excess property checking when assigning them to other variables, 
+// or passing them as arguments.
+// If an object literal has any properties that the “target type” doesn’t have, you’ll get an error.
+
+// let mySquare = createSquare({color: "black", widthe: 10});
