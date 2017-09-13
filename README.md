@@ -16,11 +16,16 @@ Simple repository for training on TypeScript
 	
 ### Compiling	
 - How can you compile typescript? There are multiple ways:
-		1. Use terminal and the TypeScript Compiler 
-			- tsc stands for TypeScript compiler
-			- tsc filename.ts or tsc folderName: This will compile the typescript file or all TS files in that folder into JavaScript files, with the same name
-		2. You can also install the compiler into your favorite IDE and build from there
-		3. For actual projects, this will be included in your build system or build tool - so that you will have browser ready JavaScript for your project 
+	1. Use terminal and the TypeScript Compiler
+	- tsc stands for TypeScript compiler
+	- Syntax:
+	```
+	tsc fileName.ts
+	tsc folderName
+	``` 
+	-This will compile the typescript file or all TS files in that folder into JavaScript files, with the same name
+	2. You can also install the compiler into your favorite IDE and build from there
+	3. For actual projects, this will be included in your build system or build tool - so that you will have browser ready JavaScript for your project 
 
 ###	Setting up your IDE for typescript use
 - VS Code has in-built support for building and intellisense for TS
