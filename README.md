@@ -1,20 +1,19 @@
 # TypeScript-Training
-==================================
 Simple repository for training on TypeScript
 
-
 ### Introduction
-—  started by the folks at Microsoft, as a way to make JavaScript scale easily for large applications.
+- started by the folks at Microsoft, as a way to make JavaScript scale easily for large applications.
 —  Some Caveats of Typescript
 	— Its a superset of JavaScript, with the introduction of types
 	— it compiles back into JavaScript which your browser can understand
 	— given that it compiles back into JavaScript, you need a compiler which you can install using
 		tsc - typescript compiler
+
 ### Installation 
-	- through NPM: npm install -g typescript
+- through NPM: npm install -g typescript
 	
 ### Compiling TypeScript	
-— How can you compile typescript? There are multiple ways:
+- How can you compile typescript? There are multiple ways:
 		— 1. Use terminal and the TypeScript Compiler 
 			- tsc filename.ts or tsc folderName: This will compile the typescript file or all TS files in that folder into JavaScript files, with the same name
 		— 2. You can also install the compiler into your favorite IDE and build from there
